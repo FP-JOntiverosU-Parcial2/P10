@@ -34,7 +34,7 @@ public class Problema10 {
         System.out.println("Los primeros " + n + " numeros de la serie de Fibonacci son: " );
         System.out.println("0 ");
         System.out.println(numero1 + "");
-        for(i=2; i<=n-1; i++){             // se introduce la variable y va aumentando mientras no se pase del numero "n"
+        for(i=2; i<=n-1; i++){             // se introduce la variable y va aumentando mientras no se pase del numero n-1
             System.out.println (numero2 + "");
            numero2= numero1 + numero2;
         numero1= numero2 - numero1;
@@ -46,6 +46,6 @@ public class Problema10 {
 }
     public static void mensajeSalida(){
         System.out.println("Gracias por usar el programa");
-        System.exit(0);
+        System.exit(0);   //se agradece 
     }
 }
